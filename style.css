@@ -1,0 +1,47 @@
+body {
+    width: 414px;
+    height: 896px;
+    flex-shrink: 0;
+}
+
+#title{
+    color: #440808;
+
+    font-family: "SF Pro Display";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#rectangle {
+    width: 414px;
+    height: 212px;
+    flex-shrink: 0;
+}
+
+img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.rectangle-icon {
+width: 100%;
+position: relative;
+max-width: 100%;
+overflow: hidden;
+height: 212px;
+}
+
+#progressBarContainer {
+  width: 100%;
+  height: 10px;
+  background-color: #eee;
+}
+
+#progressBar {
+  height: 100%;
+  background-color: #4CAF50; /* Green color for progress */
+  width: 0%; /* Initial width */
+}
